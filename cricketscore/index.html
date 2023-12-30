@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cricket Hub</title>
+    <style>
+        /* Reset some default browser styles */
+        body,
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styles for the header and navigation */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Styling for the hero section */
+        .hero {
+            background: url('c.jpeg') center center/cover;
+            /* Set your hero image path here */
+            background-size: cover;
+            text-align: center;
+            padding: 100px 0;
+            color: white;
+            opacity: 0.7;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ff4500;
+        }
+
+        /* Styling for match and news sections */
+        .matches,
+        .news {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .match,
+        .article {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .match h3,
+        .article h3 {
+            margin-bottom: 10px;
+        }
+
+        /* Styling for the footer */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Matches</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+        <h1>Cricket Hub</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Cricket Hub</h2>
+        <p>Your source for the latest cricket news and updates.</p>
+        <a href="#" class="btn">Explore</a>
+    </section>
+
+    <section class="matches">
+        <h2>Upcoming Matches</h2>
+        <div class="match">
+            <h3>Match 1</h3>
+            <p>Team A vs. Team B</p>
+            <p>Date: October 15, 2023</p>
+        </div>
+
+        <div class="match">
+            <h3>Match 2</h3>
+            <p>Team C vs. Team D</p>
+            <p>Date: October 18, 2023</p>
+        </div>
+    </section>
+
+    <section class="news">
+        <h2>Latest News</h2>
+        <div class="article">
+            <img src="a.jpeg" alt="Cricket News 1">
+            <h3>Exciting T20 Series Underway</h3>
+            <p>Stay updated with the ongoing T20 series.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article">
+            <img src="b.jpeg" alt="Cricket News 2">
+            <h3>New Captain Appointed</h3>
+            <p>Team A announces their new captain for upcoming matches.</p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Cricket Hub</p>
+    </footer>
+</body>
+
+</html>
