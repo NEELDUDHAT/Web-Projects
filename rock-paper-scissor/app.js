@@ -40,9 +40,7 @@ const showWinner=(userWin,userChoice,compChoice)=>{
     updateScore(userWin);
 }
 const playGame=(userChoice)=>{
-    console.log("user choice:",userChoice)
     const compChoice=genCompChoice();
-    console.log("comp choice:",compChoice);
     if(userChoice===compChoice)
     {
         drawGame();
