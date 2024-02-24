@@ -27,14 +27,14 @@ const updateScore=(userWin)=>{
         cScore.textContent=compScore;
     }
 }
-const showWinner=(userWin)=>{
+const showWinner=(userWin,userChoice,compChoice)=>{
     if(userWin)
     {
-        msg.textContent="You Win!";
+        msg.textContent=`You Win! Your ${userChoice} beats ${compChoice}` ;
         msg.style.backgroundColor="green";
     }
     else{
-        msg.textContent="You Lose!";
+        msg.textContent=`You Lose! ${compChoice} beats your ${userChoice}`;
         msg.style.backgroundColor="red";
     }
     updateScore(userWin);
@@ -60,7 +60,7 @@ const playGame=(userChoice)=>{
         else{
             userWin=compChoice==="rock"?false:true;
         }
-        showWinner(userWin);
+        showWinner(userWin,userChoice,compChoice);
     }
 }
 choices.forEach((choice)=>{
