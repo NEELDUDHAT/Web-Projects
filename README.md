@@ -16,7 +16,13 @@ Welcome to the Basic Web Projects Repository! This repository is designed to hel
 **Click Here to get the link**
 [Food Website](https://neeldudhat.github.io/Web-Projects/Food%20Website/)
 
-###  3. Calculator
+###  3. Gym Website
+> Welcome to our Simple Gym Website! Our minimalistic design offers a clean and user-friendly interface, providing essential information about our gym services and facilities. With a combination of HTML for structure and CSS for styling, we've created an inviting and responsive website to help you kickstart your fitness journey.
+
+**Click Here to get the link**
+[Gym Website](https://neeldudhat.github.io/Web-Projects/gym%20project/)
+
+###  4. Calculator
 > Introducing our Simple Calculator website, a user-friendly tool designed for quick and effortless mathematical calculations. With a clean and intuitive interface, users can perform basic arithmetic operations such as addition, subtraction, multiplication, and division effortlessly. Whether you're a student tackling homework or someone in need of a quick calculation, our Simple Calculator is here to streamline the process and make math a breeze.
 
 **Click Here to get the link**
